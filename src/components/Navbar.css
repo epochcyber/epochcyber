@@ -1,0 +1,330 @@
+.navbar {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #646cff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-logo:hover {
+  color: #535bf2;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 2rem;
+}
+
+.navbar-item {
+  position: relative;
+}
+
+.navbar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.navbar-link:hover {
+  color: #646cff;
+  background-color: rgba(100, 108, 255, 0.1);
+}
+
+.navbar-link.active {
+  color: #646cff;
+  background-color: rgba(100, 108, 255, 0.15);
+}
+
+.navbar-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* Auth Section */
+.navbar-auth {
+  position: relative;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #646cff, #535bf2);
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(100, 108, 255, 0.3);
+}
+
+.login-icon {
+  width: 18px;
+  height: 18px;
+}
+
+/* User Menu */
+.user-menu {
+  position: relative;
+}
+
+.user-menu-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.user-menu-trigger:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.user-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.user-name {
+  font-size: 0.9rem;
+}
+
+.user-dropdown {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  right: 0;
+  background: rgba(33, 38, 45, 0.95);
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  min-width: 200px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  z-index: 1001;
+}
+
+.user-info {
+  padding: 0.75rem 1rem;
+}
+
+.user-email {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.85rem;
+  margin: 0 0 0.25rem 0;
+}
+
+.user-role {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.75rem;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.dropdown-divider {
+  height: 1px;
+  background: #30363d;
+  margin: 0.5rem 0;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.dropdown-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.logout-btn:hover {
+  background: rgba(248, 81, 73, 0.1);
+  color: #f85149;
+}
+
+.dropdown-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.87);
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: color 0.3s ease;
+}
+
+.navbar-toggle:hover {
+  color: #646cff;
+}
+
+.navbar-mobile {
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border-top: 1px solid #333;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-mobile.active {
+  display: flex;
+}
+
+.navbar-mobile-item {
+  margin-bottom: 0.5rem;
+}
+
+.navbar-mobile-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.navbar-mobile-link:hover {
+  color: #646cff;
+  background-color: rgba(100, 108, 255, 0.1);
+}
+
+.navbar-mobile-link.active {
+  color: #646cff;
+  background-color: rgba(100, 108, 255, 0.15);
+}
+
+/* Mobile Auth Styles */
+.auth-item {
+  border-top: 1px solid #333;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.mobile-user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.mobile-user-info div {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-user-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.mobile-user-email {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.logout-mobile:hover {
+  background-color: rgba(248, 81, 73, 0.1);
+  color: #f85149;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-content {
+    display: none;
+  }
+  
+  .navbar-toggle {
+    display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-container {
+    padding: 0 0.5rem;
+  }
+  
+  .navbar-logo {
+    font-size: 1.25rem;
+  }
+}
+
+/* Close dropdown when clicking outside */
+@media (min-width: 769px) {
+  .navbar-auth:not(:hover) .user-dropdown {
+    display: none;
+  }
+}
