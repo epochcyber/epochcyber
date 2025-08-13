@@ -1,16 +1,49 @@
-<<<<<<< HEAD
-# epochcyber.github.io
-=======
-# React + Vite
+# 🔐 Epochcyber
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+*Cybersecurity Blog & Resource Hub*
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Welcome to **Epochcyber** – a dynamic platform created for cybersecurity enthusiasts, researchers, and lifelong learners! 🚀
 
-## Expanding the ESLint configuration
+Here, you’ll discover:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 5c4878d (Initial commit)
+- 📝 **Blogs** – In-depth articles, tutorials, and engaging write-ups on cybersecurity topics.
+- 🛠️ **Tools** – Custom-built scripts, utilities, and resources for ethical hacking & research.
+- 📚 **Knowledge Sharing** – Personal experiences, findings, and the ongoing learning journey in cybersecurity.
+
+---
+
+🌐 **Website** &nbsp; [🌍 https://epochcyber.github.io/](https://epochcyber.github.io/)
+
+---
+
+## 📌 Features
+
+- 📰 **Up-to-date Blogs:** Covering the latest threats, vulnerabilities, and research.
+- 🧰 **Custom Tools:** For penetration testing, recon, and security analysis.
+- 👩‍💻 **For Everyone:** Beginner to advanced content—newcomers and experts alike will find value!
+
+---
+
+## 🛠️ Tech Stack
+
+- 🎨 **Frontend:** HTML, CSS, JavaScript, or **React/Vite**
+- 🖥️ **Backend:** [**django**]
+- ☁️ **Hosting:** GitHub Pages
+
+---
+
+## 🤝 Contributing
+
+💡 Have an idea, feedback, or tool to share? Join the community!
+
+1. 🍴 **Fork** this repo  
+2. 🌱 **Create** a branch  
+3. 🔄 **Submit** a pull request  
+
+---
+
+## 📜 License
+
+🆓 **MIT License** – Free to use and share with credit!
