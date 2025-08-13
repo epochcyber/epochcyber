@@ -1,6 +1,7 @@
 {
   "homepage": "https://epochcyber.github.io/",
   "name": "epochcyber.github.io",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
